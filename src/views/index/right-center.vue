@@ -37,7 +37,10 @@ getData();
 
 <style scoped lang="scss">
 .right_bottom {
-  box-sizing: border-box;
-  padding: 0 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 </style>

@@ -8,12 +8,14 @@ import '@/assets/css/main.scss'
 import '@/assets/css/tailwind.css'
 
 import {registerEcharts} from "@/plugins/echarts"
+import {registerDataV} from "@/plugins/dataV"
 //不使用mock 请注释掉
 import { mockXHR } from "@/mock/index";
 mockXHR()
 
 const app = createApp(App)
 registerEcharts(app)
+registerDataV(app)
 app.use(createPinia())
 app.use(router)
 
